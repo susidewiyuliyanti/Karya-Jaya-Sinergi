@@ -54,8 +54,8 @@ export const COMPANY_INFO = {
   established: '2021',
   licenseNumber: '586/044-Ds. Brb/X/2026',
   address: 'Jl. Kebon Dalam No. 2 Rt 001/007, Buaran Bambu, PakuHaji, Tangerang - 15570',
-  phoneDisplay: '+62 813-1570-3054',
-  phoneRaw: '6281315703054',
+  phoneDisplay: '+62 856-9722-7884',
+  phoneRaw: '6285697227884',
   email: 'karyajayasinergi@gmail.com',
   pdfUrl: '/assets/aistudio/COMPANY_PROFILE_KJS_2026_ad22e191.pdf',
 };
