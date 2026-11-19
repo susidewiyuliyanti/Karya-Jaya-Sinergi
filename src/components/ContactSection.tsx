@@ -143,6 +143,26 @@ export function ContactSection({ lang, preselectedSystem, preselectedNotes }: Co
               </div>
             </div>
 
+            <div className="pt-2">
+              <a
+                href={`https://wa.me/${COMPANY_INFO.phoneRaw}?text=${encodeURIComponent(
+                  lang === 'id'
+                    ? 'Halo CV. Karya Jaya Sinergi, saya ingin berkonsultasi mengenai layanan dan penawaran.'
+                    : 'Hello CV. Karya Jaya Sinergi, I would like to discuss your services and request a quotation.'
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={lang === 'id' ? 'Hubungi Karya Jaya Sinergi melalui WhatsApp' : 'Contact Karya Jaya Sinergi via WhatsApp'}
+                className="inline-flex w-full sm:w-auto items-center justify-center gap-3 rounded-lg bg-[#25D366] px-6 py-4 text-sm font-bold text-white shadow-lg shadow-black/20 transition-all hover:bg-[#1EBE5D] hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2 focus:ring-offset-[#091326]"
+              >
+                <MessageSquare className="h-5 w-5" />
+                <span>{lang === 'id' ? 'Chat Langsung via WhatsApp' : 'Chat Directly on WhatsApp'}</span>
+              </a>
+              <p className="mt-2 text-xs text-slate-400">
+                {lang === 'id' ? 'Klik untuk memulai percakapan dengan tim Karya Jaya Sinergi.' : 'Click to start a conversation with the Karya Jaya Sinergi team.'}
+              </p>
+            </div>
+
             <div className="pt-4 border-t border-white/10">
               <a
                 href={COMPANY_INFO.pdfUrl}
